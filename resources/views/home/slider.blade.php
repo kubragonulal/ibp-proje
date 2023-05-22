@@ -10,7 +10,7 @@
                         <div class="col-lg-6 offset-lg-6">
                             <div class="hi-text">
                                 <span>{{$rs->title}}</span>
-                                <h1>Be <strong>strong</strong> traning hard</h1>
+                                <h1>G <strong>Y</strong> M</h1>
                                 <a href="{{route('product',['id'=> $rs->id])}}" class="primary-btn">Get info</a>
                             </div>
                         </div>

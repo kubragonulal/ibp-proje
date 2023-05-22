@@ -1,6 +1,6 @@
 @extends('layouts.adminbase')
 
-@section('title','FAQ List')
+@section('title','Announcement List')
 
 
 @section('content')
@@ -18,14 +18,14 @@
         <div class="row vh-101 bg-white rounded align-items-start justify-content-center mx-0">
             <div class="col-sm-12 col-xl-12">
                 <a href="{{route('admin.faq.create')}}" class="btn btn-secondary bg-primary m-3 "
-                   style="width: 200px">Add Question</a>
+                   style="width: 200px">Add Announcement</a>
                 <div class="bg-light rounded h-100 p-4">
                     <h6 class="mb-4">Announcement List</h6>
                     <table class="table table-bordered ">
                         <thead>
                         <tr>
                             <th>Id</th>
-                            <th>Question</th>
+                            <th>Title</th>
                             <th>Answer</th>
                             <th>Status</th>
                             <th style="width: 40px">Edit</th>

@@ -1,6 +1,6 @@
 @extends('layouts.adminbase')
 
-@section('title','Add FAQ')
+@section('title','Add Announcement')
 @section('head')
     <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
 @endsection
@@ -25,8 +25,8 @@
                     <form action="{{route('admin.faq.store')}}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Question</label>
-                            <input type="text" class="form-control" name="question" placeholder="Question">
+                            <label for="exampleInputEmail1" class="form-label">Title</label>
+                            <input type="text" class="form-control" name="question" placeholder="Title">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Answer</label>

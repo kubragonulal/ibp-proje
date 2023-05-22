@@ -43,7 +43,7 @@
                 <a href="/admin/comment" class="nav-link"><i class="nav-icon fas fa-comment me-2"></i>Comments</a>
             </div>
             <div class="nav-item">
-                <a href="{{route('admin.faq.index')}}" class="nav-link"><i class="nav-icon fas fa-question me-2"></i>FAQ</a>
+                <a href="{{route('admin.faq.index')}}" class="nav-link"><i class="nav-icon fas fa-qrcode me-2"></i>Announcements</a>
             </div>
             <div class="nav-item">
                 <a href="{{route('admin.message.index')}}" class="nav-link"><i

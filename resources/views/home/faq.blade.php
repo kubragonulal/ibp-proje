@@ -22,7 +22,7 @@
                         <h2>Announcements </h2>
                         <div class="bt-option">
                             <a href="{{route('home')}}">Home</a>
-                            <span>FAQ</span>
+                            <span>Announcement</span>
                         </div>
                     </div>
                 </div>
